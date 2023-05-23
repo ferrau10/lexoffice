@@ -23,5 +23,5 @@ This script:
 - `python script.py 2023-05-18T10:00:00Z 2023-05-18T10:04:00Z`
 - the script should return an error because the time difference between start and end times must be at least 15 minutes.
 
-## Improvements
+## Improvements: 
 - automate unit tests for more scenarios (such as bad input format, checking the number of blocks generated, or checking that unique ids have beenn generated)
