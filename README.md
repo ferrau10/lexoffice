@@ -19,7 +19,7 @@ This script:
 - The output file output.json should be generated successfully.
 - The output.json file should contain 6 15-minute blocks.
 
-### Wrong inputs
+### Wrong inputs:
 - `python script.py 2023-05-18T10:00:00Z 2023-05-18T10:04:00Z`
 - the script should return an error because the time difference between start and end times must be at least 15 minutes.
 
