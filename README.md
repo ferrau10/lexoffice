@@ -1,4 +1,4 @@
-# The lexoffice Data Platform Engineering Challenge
+# Data Platform Engineering Challenge
 This script:
 1. accepts two command line arguments - `start-time` and `end-time`
 2. checks that the inputs given are of a valid time format. The script should not run if the difference between the input arguments is less than 15 minutes
