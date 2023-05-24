@@ -58,7 +58,7 @@ def generate_blocks(start_time, end_time, time_format):
     end = datetime.strptime(end_time, time_format)
     block_list = []
 
-    while start <= end:
+    while start < end:
         block = {
             "block_start_time": start.strftime(time_format),
             "block_end_time": (start + timedelta(minutes=15)).strftime(time_format),
@@ -71,7 +71,7 @@ def generate_blocks(start_time, end_time, time_format):
 
 
 def main(time_format):
-    if len(sys.argv) < 3:
+    if len(sys.argv) != 3:
         print("Usage: python script.py start-time end-time")
         return
 
